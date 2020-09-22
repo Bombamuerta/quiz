@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Привет Синди!</title>
+  </head>
+  <body>
+    <div class="quiz-container">
+      <div class="header" id="header"></div>
+      <div class="questions-block">
+        <ul>
+          <li>
+            <input class="answer" type="radio" id="a" name="answer"/>
+            <label for="a" id="a_label"></label>
+          </li>
+          <li>
+            <input class="answer" type="radio" id="b" name="answer"/>
+            <label for="b" id="b_label"></label>
+          </li>
+          <li>
+            <input class="answer" type="radio" id="c" name="answer"/>
+            <label for="c" id="c_label"></label>
+          </li>
+          <li>
+            <input class="answer" type="radio" id="d" name="answer"/>
+            <label for="d" id="d_label"></label>
+          </li>
+        </ul>
+      </div>
+      <button id="submit">Submit</button>
+      <div class="end-game" id="end">
+        <span id="message">GAME OVER!</span>
+        <img src="/win.gif" alt="">
+        <button class="repeat" id="reset">Reload game</button>
+      </div>
+    </div>
+    <script src="/code.js"></script>
+    <!-- <script src="/array.js"></script> -->
+  </body>
+</html>
